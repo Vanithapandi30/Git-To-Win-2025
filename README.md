@@ -6,7 +6,7 @@
 🎉 Celebrate International Programmers' Day 🎉 Join us for the "Git to Win: Coding Challenge". A GitHub account is required. Showcase your coding skills, connect with fellow developers, and compete for exciting prizes in this thrilling challenge!  Let’s code, celebrate, and innovate together!
 
                                                    GitHub Coding Competition
-                                                   
+                                                
 Welcome to the GitHub Coding Competition! This repository is your go-to resource for all the details, challenges, and submission guidelines.
 Competition Overview
 
