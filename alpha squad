@@ -1,21 +1,19 @@
 #include <stdio.h>
 
-#define SIZE 4
-
 int main() {
-    char pattern[SIZE][SIZE] = {
-        {'L', '*', '*', '*'},
-        {'*', 'E', '*', '*'},
-        {'*', '*', 'A', '*'},
-        {'*', '*', '*', 'P'}
-    };
+    char str[] = "LEAP";
+    int len = sizeof(str) / sizeof(str[0]) - 1; // Calculate the length of the string excluding the null character
+    int i, j;
 
-    for (int i = 0; i < SIZE; i++) {
-        for (int j = 0; j < SIZE; j++) {
-            printf("%c ", pattern[i][j]);
+    for (i = 0; i < len; i++) {
+        for (j = 0; j < len; j++) {
+            if (i == j) {
+                printf("%c ", str[i]);
+            } else {
+                printf("* ");
+            }
         }
         printf("\n");
     }
-
     return 0;
 }
