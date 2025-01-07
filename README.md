@@ -16,9 +16,6 @@ Write a C program to generate the following pattern:
    ### * E * * 
    ### * * A *
    ### * * * P      
-### Explanation:
-The word "leap" is printed diagonally, with non-diagonal positions filled with *.
-The word repeats cyclically if the grid size exceeds the length of the word.
 
 ### Rules and Guidelines:
 
