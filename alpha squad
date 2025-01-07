@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+#define SIZE 4
+
+int main() {
+    char pattern[SIZE][SIZE] = {
+        {'L', '*', '*', '*'},
+        {'*', 'E', '*', '*'},
+        {'*', '*', 'A', '*'},
+        {'*', '*', '*', 'P'}
+    };
+
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            printf("%c ", pattern[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
